@@ -1,0 +1,67 @@
+ext {
+    screenfulvideo = [
+            applicationId: "com.adwl.screenfulvideo",
+            versionCode  : 1000,
+            versionName  : "1.0"]
+
+    // android配置
+    config = [compileSdkVersion: 30,
+              buildToolsVersion: "30.0.2",
+              minSdkVersion    : 22,
+              targetSdkVersion : 30
+    ]
+
+    // 依赖库
+    def support_version = '1.0.0-beta01'
+    deps = ["support-v4"          : "androidx.legacy:legacy-support-v4:${support_version}",
+            "appcompat-v7"        : "androidx.appcompat:appcompat:${support_version}",
+            "design"              : "com.google.android.material:material:${support_version}",
+            "recyclerview-v7"     : "androidx.recyclerview:recyclerview:${support_version}",
+            "exifinterface"       : "androidx.exifinterface:exifinterface:${support_version}",
+            "multidex"            : 'androidx.multidex:multidex:2.0.0',
+
+            "butterknife"         : 'com.jakewharton:butterknife:8.2.1',
+            "butterknife-compiler": 'com.jakewharton:butterknife-compiler:8.2.1',
+            "okhttp3"             : 'com.squareup.okhttp3:okhttp:3.11.0',
+            "logging-interceptor" : 'com.squareup.okhttp3:logging-interceptor:3.11.0',
+            "retrofit"            : 'com.squareup.retrofit2:retrofit:2.4.0',
+            "retrofit-gson"       : 'com.squareup.retrofit2:converter-gson:2.4.0',
+
+            "adapter-rxjava2"     : 'com.squareup.retrofit2:adapter-rxjava2:2.4.0',
+            "rxjava2"             : 'io.reactivex.rxjava2:rxjava:2.2.3',
+            "rxandroid2"          : 'io.reactivex.rxjava2:rxandroid:2.1.0',
+            "rxbinding2"          : 'com.jakewharton.rxbinding2:rxbinding:2.1.1',
+            "rxlifecycle2"        : 'com.trello.rxlifecycle2:rxlifecycle:2.2.1',
+            "rxpermissions2"      : 'com.tbruyelle.rxpermissions2:rxpermissions:0.9.5@aar',
+
+
+            "dagger"              : 'com.google.dagger:dagger:2.6',
+            "dagger-compiler"     : 'com.google.dagger:dagger-compiler:2.6',
+            "gson"                : 'com.google.code.gson:gson:2.7',
+            "fresco"              : 'com.facebook.fresco:fresco:1.11.0',
+            "fresco-animated-gif" : 'com.facebook.fresco:animated-gif:1.11.0',
+            "fresco-okhttp3"      : 'com.facebook.fresco:imagepipeline-okhttp3:1.11.0',
+            "timber"              : 'com.jakewharton.timber:timber:4.1.2', // log
+            "stetho"              : "com.facebook.stetho:stetho:1.5.0",
+            "stetho-okhttp3"      : "com.facebook.stetho:stetho-okhttp3:1.5.0",
+//            "sugar"                : "com.github.satyan:sugar:1.5",
+            "eventbus"            : "org.greenrobot:eventbus:3.1.1",
+
+            "smarttablayout"      : "com.ogaclejapan.smarttablayout:library:1.6.0@aar",
+            "photodraweeview"     : 'me.relex:photodraweeview:1.1.0',
+
+            "circleindicator"     : 'me.relex:circleindicator:1.2.2@aar',
+            "zxing"               : 'com.google.zxing:core:3.2.0',
+            "umeng"               : "com.umeng.analytics:analytics:6.1.0",
+            "bugly"               : "com.tencent.bugly:crashreport:2.6.6",
+            "bugly-native"        : "com.tencent.bugly:nativecrashreport:3.3.1",
+
+            "junit"               : "junit:junit:4.12",
+            "ultra-ptr"           : "in.srain.cube:ultra-ptr:1.0.11",
+            "supportannotations"  : 'com.android.support:support-annotations:27.0.2',
+            "percent"             : 'com.android.support:percent:25.0.0',
+            "swiperecyclerview"   : 'com.yanzhenjie:recyclerview-swipe:1.1.4',
+            "reactivenetwork"     : 'com.github.pwittchen:reactivenetwork-rx2:3.0.0',
+            "mmkv"                : "com.tencent:mmkv:1.0.17"
+    ]
+}

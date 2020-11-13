@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="home_margin_left">15dp</dimen>
+    <dimen name="home_margin_right">15dp</dimen>
+    <dimen name="common_line_height">0.5dp</dimen>
+    <dimen name="bottom_bar_height">50dp</dimen>
+    <dimen name="dkplayer_play_btn_size">50dp</dimen>
+    <dimen name="dkplayer_default_spacing">10dp</dimen>
+    <dimen name="dp_20">20dp</dimen>
+</resources>

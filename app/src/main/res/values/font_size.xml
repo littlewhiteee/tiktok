@@ -1,0 +1,52 @@
+<resources>
+    <!--################## Text Size ##################-->
+
+    <!--########## Common Font Size Start ##########-->
+    <dimen name="font_size_3">3sp</dimen>
+    <dimen name="font_size_5">5sp</dimen>
+    <dimen name="font_size_5_5">5.5sp</dimen>
+    <dimen name="font_size_6">6sp</dimen>
+    <dimen name="font_size_7">7sp</dimen>
+    <dimen name="font_size_7_5">7.5sp</dimen>
+    <dimen name="font_size_8">8sp</dimen>
+    <dimen name="font_size_9">9sp</dimen>
+    <dimen name="font_size_10">10sp</dimen>
+    <dimen name="font_size_10_5">10.5sp</dimen>
+    <dimen name="font_size_11">11sp</dimen>
+    <dimen name="font_size_11_5">11.5sp</dimen>
+    <dimen name="font_size_12">12sp</dimen>
+    <dimen name="font_size_12_5">12.5sp</dimen>
+    <dimen name="font_size_13">13sp</dimen>
+    <dimen name="font_size_13_5">13.5sp</dimen>
+    <dimen name="font_size_14">14sp</dimen>
+    <dimen name="font_size_14_5">14.5sp</dimen>
+    <dimen name="font_size_15">15sp</dimen>
+    <dimen name="font_size_15_5">15.5sp</dimen>
+    <dimen name="font_size_16">16sp</dimen>
+    <dimen name="font_size_16_5">16.5sp</dimen>
+    <dimen name="font_size_17">17sp</dimen>
+    <dimen name="font_size_17_5">17.5sp</dimen>
+    <dimen name="font_size_18">18sp</dimen>
+    <dimen name="font_size_18_5">18.5sp</dimen>
+    <dimen name="font_size_19">19sp</dimen>
+    <dimen name="font_size_19_5">19.5sp</dimen>
+    <dimen name="font_size_20">20sp</dimen>
+    <dimen name="font_size_21">21sp</dimen>
+    <dimen name="font_size_22">22sp</dimen>
+    <dimen name="font_size_22_5">22.5sp</dimen>
+    <dimen name="font_size_23">23sp</dimen>
+    <dimen name="font_size_24">24sp</dimen>
+    <dimen name="font_size_25">25sp</dimen>
+    <dimen name="font_size_26">26sp</dimen>
+    <dimen name="font_size_27_5">27.5sp</dimen>
+    <dimen name="font_size_28">28sp</dimen>
+    <dimen name="font_size_30">30sp</dimen>
+    <dimen name="font_size_32">32sp</dimen>
+    <dimen name="font_size_33">33sp</dimen>
+    <dimen name="font_size_36">36sp</dimen>
+    <dimen name="font_size_37">37sp</dimen>
+    <dimen name="font_size_40">40sp</dimen>
+    <dimen name="font_size_50">50sp</dimen>
+    <dimen name="font_size_80">80sp</dimen>
+    <!--########## Common Font Size END ##########-->
+</resources>
